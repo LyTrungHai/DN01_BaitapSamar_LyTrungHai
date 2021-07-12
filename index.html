@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samar</title>
+
+    <!-- FONT AWESOME  -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+
+
+
+    <!-- FONT GOOGLE  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- ------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+
+    <!-- FLATICON CSS  -->
+    <link rel="stylesheet" href="./css/flaticon.css" />
+
+
+    <!-- FANCYBOX  -->
+
+        <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+
+    <!-- SWIPER CSS  ----->
+    
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- SLICK CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <!-- MAIN CSS  -->
+    <link rel="stylesheet" href="./css/samarstyle.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__container">
+        <div class="header__content">
+          <div class="header__logo">
+            <a href="index.html">
+              <img src="./img/logo-2.png" alt="indexlogo" />
+            </div>
+            </a>
+            <nav class="header__menu">
+              <ul class="menu">
+                <li class="menu__list">
+                  <a class="active" href="index.html"><span>Home</span>
+                  <!-- <i  class="fa fa-chevron-down"></i> -->
+                  </a>
+                  <!-- <ul class="menu__dropdown">
+                    <li> <a href="">item1</a> </li>
+                    <li> <a href="">item2</a> </li>
+                    <li> <a href="">item3</a> </li>
+                  </ul> -->
+                </li>
+                <li class="menu__list">
+                  <a href=""><span>Pages</span>
+                  <i  class="fa fa-chevron-down"></i>
+                  </a>
+                  <ul class="menu__dropdown">
+                    <li> <a href="">Pages1</a> </li>
+                    <li> <a href="">Pages2</a> </li>
+                    <li> <a href="">Pages3</a> </li>
+                  </ul>
+                </li>
+                <li class="menu__list">
+                  <a href=""><span>Services</span>
+                  <i  class="fa fa-chevron-down"></i>
+                  </a>
+                  <ul class="menu__dropdown">
+                    <li> <a href="">Services1</a> </li>
+                    <li> <a href="">Services2</a> </li>
+                    <li> <a href="">Services3</a> </li>
+                  </ul>
+                </li>
+                <li class="menu__list">
+                  <a href=""><span>Post Layout</span>
+                  <i  class="fa fa-chevron-down"></i>
+                  </a>
+                  <ul class="menu__dropdown">
+                    <li> <a href="">Post Layout1</a> </li>
+                    <li> <a href="">Post Layout2</a> </li>
+                    <li> <a href="">Post Layout3</a> </li>
+                  </ul>
+                </li>
+                <li class="menu__list">
+                  <a href=""><span>Blog</span>
+                  <i  class="fa fa-chevron-down"></i>
+                  </a>
+                  <ul class="menu__dropdown">
+                    <li> <a href="">Blog1</a> </li>
+                    <li> <a href="">Blog2</a> </li>
+                    
+                  </ul>
+                </li>
+                <li class="menu__list">
+                  <a href=""><span>Contact Us</span>
+                  <i  class="fa fa-chevron-down"></i>
+                  </a>
+                  <ul class="menu__dropdown">
+                    <li> <a href="">Contact1</a> </li>
+                    <li> <a href="">Contact2</a> </li>
+                    <li> <a href="">Contact3</a> </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__button">
+              <a href="">Get a Quote</a>
+            </div>
+        </div>
+      </div>
+    </header>
+    <!-- banner  -->
+    <section class="banner">
+      <div class="banner__container">
+        <div class="banner__content">
+          <div class="row">
+            <div class="banner__col--left">
+              <div class="banner__col--left--detail">
+                <h6>We are The Best</h6>
+                <h1>Freelance Product Designer Running</h1>
+                <p>We develop the relationships that underpin the next phase in your <br> organisation’s growth.</p>
+                <ul>
+                  <li>Master's degree in designing</li>
+                  <li>Outstanding mobile design</li>
+                </ul>
+                <a class="banner__button" href="">Get Started</a>
+              </div>
+            </div>
+            <div class="banner__col--right">
+              <div class="banner__col--right--content">
+                  <img src="./img/pic3_1.png" alt="bannerimg">
+                  <img class="img--move" src="./img/pic1.png" alt="bannermove">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services  -->
+    <section class="services">
+      <div class="services__container">
+        <div class="services__title">
+          <h6>What We Do Best</h6>
+          <h1>Our Digital Services</h1>
+        </div>
+        <div class="services__content">
+          <div class="services__item">
+            <div class="services__item--detail">
+              <div class="services__icon">
+                <img src="./img/pic1_3.jpg" alt="services image">
+              </div>
+              <div class="services__desc" >
+                <h4>Web Development</h4>
+                <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="services__item">
+            <div class="services__item--detail">
+              <div class="services__icon">
+                <img src="./img/pic2_2.jpg" alt="services image">
+              </div>
+              <div class="services__desc" >
+                <h4>Strategy & Research</h4>
+                <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="services__item">
+            <div class="services__item--detail">
+              <div class="services__icon">
+                <img src="./img/pic3_2.jpg" alt="services image">
+              </div>
+              <div class="services__desc">
+                <h4>Growth Tracking</h4>
+                <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <!-- about -->
+    <section class="about">
+      <div class="about__container">
+        <div class="about__content">
+          <div class="about__row">
+            <div class="about__col--left">
+              <div class="about__detail--left">
+                <img src="./img/pic1.jpg" alt="about Us image">
+              </div>
+            </div>
+            <div class="about__col--right">
+              <div class="about__detail--right">
+                <h6>About Us</h6>
+                <h1>Build Your Business Website Better</h1>
+                <p>Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. Vivamus blandit, dolor ut aliquet rutrum, ex elit mattis sapien, non molestie felis neque et nulla. Sed euismod turpis id nibh suscipit semper. Pellentesque dapibus risus arcu.</p>
+                <ul class="about__listcheck">
+                  <li>
+                    We support programs that create advancement opportunities for people.
+                  </li>
+                  <li>                  
+                    Get a view of events and trends. Be updated on our recent news.
+                  </li>
+                  <li>                   
+                    Finally, it all comes down to people. Creating a winning team.
+                  </li> 
+                  <li>                   
+                    Get a view of events and trends. Be updated on our recent news.
+                  </li>
+                </ul>
+                <a href="">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- number -->
+    <section class="number">
+      <div class="number__content">
+        <div class="number__item">
+          <div class="number__detail">
+            <div class="number__detail--icon"><i class="flaticon-smile"></i></div>
+            <div class="number__detail--title">
+              <h2><span class='numscroller' data-min='1' data-max='18' data-delay='5' data-increment='3'>18</span>Ml</h2>
+              <span>Satisfied Clients</span>
+            </div>
+           
+          </div>
+        </div>
+        <div class="number__item">
+          <div class="number__detail">
+            <div class="number__detail--icon"><i class="flaticon-line-chart"></i></div>
+            
+            <div class="number__detail--title">
+              <h2><span class='numscroller' data-min='0' data-max='20' data-delay='5' data-increment='3'>20</span>Ml</h2>
+              <span>Project Completed</span>
+            </div>
+          </div>
+        </div>
+        <div class="number__item">
+          <div class="number__detail">
+            <div class="number__detail--icon"><i class="flaticon-startup"></i></div>
+            
+            <div class="number__detail--title">
+              <h2><span class='numscroller' data-min='0' data-max='30' data-delay='5' data-increment='3'>30</span>Ml</h2>
+              <span>Project Lunched</span>
+            </div>
+          </div>
+        </div>
+        <div class="number__item">
+          <div class="number__detail">
+            <div class="number__detail--icon"><i class="flaticon-confetti"></i></div>
+            
+            <div class="number__detail--title">
+              <h2><span class='numscroller' data-min='0' data-max='50' data-delay='5' data-increment='3'>50</span></h2>
+              <span>Years Completed</span>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <!-- story -->
+    <section class="story">
+      <div class="story__container">
+        <div class="story__row">
+          <div class="story__col--left">
+            <div class="story__title">
+                <h6>Our Features</h6>
+                <h1>Behind The Story Of Samar Agency</h1>
+            </div>
+            <div class="story__item">
+              <div class="story__item--icon">
+                <i class="flaticon-idea"></i>
+              </div>
+              <div class="story__item--content">
+                <h4>Idea & Analysis Gathering</h4>
+                <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+              </div>
+            </div>
+            <div class="story__item story__item--center">
+              <div class="story__item--icon">
+                <i class="flaticon-coding"></i>
+              </div>
+              <div class="story__item--content">
+                <h4>Design & Developing</h4>
+                <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+              </div>
+            </div>
+            <div class="story__item">  
+              <div class="story__item--icon">
+                <i class="flaticon-rocket"></i>
+              </div>
+              <div class="story__item--content">
+                <h4>Testing & Lunching</h4>
+                <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+              </div>
+            </div>  
+          </div>
+          <div class="story__col--right">
+            <div class="story__right--detail">
+              <img src="./img/pic3.png" alt="story Image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- photos  -->
+    <section class="photos">
+      <div class="photos__content">
+        <div class="photos__title">
+          <h6>Portfolio</h6>
+          <h1>Our Latest Work</h1>
+        </div>
+        <div class="photos__grid">
+          <div  class="grid__item grid__item1">
+            <img src="./img/pic1_2.jpg" alt="Our Latest Work image">
+            <div class="photos__overlay">
+              <div class="photos__icon">
+                <a data-fancybox="gallery" data-src="./img/pic1_2.jpg"> <i class="la la-plus"></i></a> 
+              </div>
+              <div class="photos__name">
+                <h4>Software Landing</h4>
+                <p>By Trung Hai</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <img src="./img/pic2_1.jpg" alt="Our Latest Work image">
+            <div class="photos__overlay">
+              <div class="photos__icon">
+                <a data-fancybox="gallery" data-src="./img/pic2_1.jpg"><i class="la la-plus"></i></a>
+                
+              </div>
+              <div class="photos__name">
+                <h4>Software Landing</h4>
+                <p>By Trung Hai</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <img src="./img/pic3_1.jpg" alt="Our Latest Work image">
+            <div class="photos__overlay">
+              <div class="photos__icon">
+                <a data-fancybox="gallery" data-src="./img/pic3_1.jpg"><i class="la la-plus"></i></a>
+                
+              </div>
+              <div class="photos__name">
+                <h4>Software Landing</h4>
+                <p>By Trung Hai</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <img src="./img/pic4.jpg" alt="Our Latest Work image">
+            <div class="photos__overlay">
+              <div class="photos__icon">
+                <a data-fancybox="gallery" data-src="./img/pic4.jpg"><i class="la la-plus"></i></a>
+                
+              </div>
+              <div class="photos__name">
+                <h4>Software Landing</h4>
+                <p>By Trung Hai</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid__item grid__item5">
+            <img src="./img/pic5.jpg" alt="Our Latest Work image">
+            <div class="photos__overlay">
+              <div class="photos__icon">
+                <a data-fancybox="gallery" data-src="./img/pic5.jpg"><i class="la la-plus"></i></a>
+                
+              </div>
+              <div class="photos__name">
+                <h4>Software Landing</h4>
+                <p>By Trung Hai</p>
+              </div>
+            </div>
+            
+          </div>
+          <div class="grid__item grid__item6">
+            <img src="./img/pic6.jpg" alt="Our Latest Work image">
+            <div class="photos__overlay">
+              <div class="photos__icon">
+                <a data-fancybox="gallery" data-src="./img/pic6.jpg"><i class="la la-plus"></i></a>
+                
+              </div>
+              <div class="photos__name">
+                <h4>Software Landing</h4>
+                <p>By Trung Hai</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- plan -->
+    <section class="plan">
+      <div class="plan__content">
+        <div class="plan__title">
+          <div class="plan__titletop">
+            <h6>Choose Your Plan</h6>
+            <h1>Choose Your Plan</h1>
+          </div>
+          
+          <div class="plan__click">
+            <span>MONTHLY</span>
+            <span>YEARLY</span>
+          </div>
+        </div>
+        <div class="plan__table">
+          <div class="plan__row">
+            <div class="plan__col">
+              <div class="plan__col--detail">
+                <div><h3>Basic Plan</h3></div>
+                <div><img src="./img/pic4_1.jpg" alt="Choose Plan image"></div>
+                <div ><h2>$49 <small class="small">/Month</small></h2></div>
+                <div>
+                  <ul>
+                    <li><i class="fas fa-check"></i>Graphic Design</li>
+                    <li><i class="fas fa-check"></i>Web Design</li>
+                    <li><i class="fas fa-check"></i>UI/UX</li>
+                    <li><i class="fas fa-check"></i>HTML/CSS</li>
+                    <li><i class="fas fa-check"></i>SEO Marketing</li>
+                    <li><i class="fas fa-check"></i>Business Analysis</li>
+                  </ul>
+                </div>
+                <div><a href="">START NOW</a></div>
+              </div>
+              
+            </div>
+            <div class="plan__col">
+              <div class="plan__col--detail">
+                <div><h3>Standart Plan</h3></div>
+                <div><img src="./img/pic5_1.jpg" alt="Choose Plan image"></div>
+                <div ><h2>$99 <small class="small">/Month</small></h2></div>
+                <div>
+                  <ul>
+                    <li><i class="fas fa-check"></i>Graphic Design</li>
+                    <li><i class="fas fa-check"></i>Web Design</li>
+                    <li><i class="fas fa-check"></i>UI/UX</li>
+                    <li><i class="fas fa-check"></i>HTML/CSS</li>
+                    <li><i class="fas fa-check"></i>SEO Marketing</li>
+                    <li><i class="fas fa-check"></i>Business Analysis</li>
+                  </ul>
+                </div>
+                <div><a href="">START NOW</a></div>
+              </div>
+              
+            </div>
+            <div class="plan__col">
+              <div class="plan__col--detail">
+                <div><h3>Premium Plan</h3></div>
+                <div><img src="./img/pic6_1.jpg" alt="Choose Plan image"></div>
+                <div ><h2>$149 <small class="small">/Month</small></h2></div>
+                <div>
+                  <ul>
+                    <li><i class="fas fa-check"></i>Graphic Design</li>
+                    <li><i class="fas fa-check"></i>Web Design</li>
+                    <li><i class="fas fa-check"></i>UI/UX</li>
+                    <li><i class="fas fa-check"></i>HTML/CSS</li>
+                    <li><i class="fas fa-check"></i>SEO Marketing</li>
+                    <li><i class="fas fa-check"></i>Business Analysis</li>
+                  </ul>
+                </div>
+                <div><a href="">START NOW</a></div>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <!-- client -->
+    <section class="client">
+      <div class="client__content">
+        <div class="client__title">
+            <h6>Testimonial</h6>
+            <h1>What Our Clients Say’s</h1>
+         </div> 
+         <div class="client__slider--content">
+  <!-- Swiper -->
+  <div class="swiper-container testimonial-thumbs">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="testimonial-pic">
+          <img src="./img/pic3_3.jpg" alt="Clients Say’s image">
+          <div class="shape-bx"></div>
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+        <div class="testimonial-pic">
+          <img src="./img/pic1_4.jpg" alt=" Clients Say’s image">
+          <div class="shape-bx"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="testimonial-pic">
+          <img src="./img/pic2_3.jpg" alt="Clients Say’s image">
+          <div class="shape-bx"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="swiper-container testimonial-comment">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="testimonial-text">
+          <i class="fa fa-quote-left"></i>
+          <strong class="testimonial-name"><i>Cak Dikin 1</i> </strong>
+          <span class="testimonial-position text-primary m-b20"><i>CEO &amp; Founder</i>  </span>
+          <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+        <div class="testimonial-text">
+          <i class="fa fa-quote-left"></i>
+          <strong class="testimonial-name">Cak Dikin 2</strong>
+          <span class="testimonial-position text-primary m-b20"><i>CEO &amp; Founder</i>  </span>
+          <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+        <div class="testimonial-text">
+          <i class="fa fa-quote-left"></i>
+          <strong class="testimonial-name">Cak Dikin 3</strong>
+          <span class="testimonial-position text-primary m-b20"> <i>CEO & Founder</i>  </span>
+          <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+    </section>
+
+    <!-- blog -->
+    <section class="blog">
+      <div class="blog__content">
+        <div class="blog__title">
+            <h6>Our Blog</h6>
+            <h1>Latest News & Blog</h1>
+         </div>
+
+         <div class="blog__carousel">
+           <div class="blog__slider--content">
+              <div class="carousel__item">
+                  <div class="carousel__item--detail">
+                    <div class="carousel__img">
+                      <a href="">
+                        <img src="./img/pic1_1.jpg" alt="Blog image">
+                      </a>
+                    </div>
+                    <div class="carousel__note">
+                      <div class="carousel__note--title">
+                        <h4><a href="">Maecenas maximus augue eget libero dictum.</a></h4>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <div class="carousel__comment">
+                        <ul>
+                          <li class="carousel__date">28 June 2021</li>
+                          <li><i class="far fa-user-circle"></i> By <a class="by" href="">Trung Hai</a></li>
+                          <li>
+                            <i class="far fa-comment-dots"></i>
+                            <a href="">Comments <span>15</span></a>
+                          </li>
+                        </ul>
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel__item">
+                  <div class="carousel__item--detail">
+                    <div class="carousel__img">
+                      <a href="">
+                        <img src="./img/pic2.jpg" alt="Blog image">
+                      </a>
+                    </div>
+                    <div class="carousel__note">
+                      <div class="carousel__note--title">
+                        <h4><a href="">Maecenas maximus augue eget libero dictum.</a></h4>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <div class="carousel__comment">
+                        <ul>
+                          <li class="carousel__date">28 June 2021</li>
+                          <li><i class="far fa-user-circle"></i> By <a class="by" href="">Trung Hai</a></li>
+                          <li>
+                            <i class="far fa-comment-dots"></i>
+                            <a href="">Comments <span>15</span></a>
+                          </li>
+                        </ul>
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel__item">
+                  <div class="carousel__item--detail">
+                    <div class="carousel__img">
+                      <a href="">
+                        <img src="./img/pic3.jpg" alt="Blog image">
+                      </a>
+                    </div>
+                    <div class="carousel__note">
+                      <div class="carousel__note--title">
+                        <h4><a href="">Maecenas maximus augue eget libero dictum.</a></h4>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <div class="carousel__comment">
+                        <ul>
+                          <li class="carousel__date">28 June 2021</li>
+                          <li><i class="far fa-user-circle"></i> By <a class="by" href="">Trung Hai</a></li>
+                          <li>
+                            <i class="far fa-comment-dots"></i>
+                            <a href="">Comments <span>15</span></a>
+                          </li>
+                        </ul>
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel__item">
+                  <div class="carousel__item--detail">
+                    <div class="carousel__img">
+                      <a href="">
+                        <img src="./img/pic2.jpg" alt="Blog image">
+                      </a>
+                    </div>
+                    <div class="carousel__note">
+                      <div class="carousel__note--title">
+                        <h4><a href="">Maecenas maximus augue eget libero dictum.</a></h4>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <div class="carousel__comment">
+                        <ul>
+                          <li class="carousel__date">28 June 2021</li>
+                          <li><i class="far fa-user-circle"></i> By <a class="by" href="">Trung Hai</a></li>
+                          <li>
+                            <i class="far fa-comment-dots"></i>
+                            <a href="">Comments <span>15</span></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+           </div>
+         </div>
+      </div> 
+    </section>
+
+    <!-- sponsor  -->
+    <section class="sponsor">
+      <div class="sponsor__content">
+        <div class="sponsor__slider">
+          <div class="sponsor__item">
+            <img src="./img/logo-light1.png" alt="sponsor logo image">
+            <img src="./img/logo-pink1.png" alt="sponsor logo image">
+          </div>
+          <div class="sponsor__item">
+            <img src="./img/logo-light2.png" alt="sponsor logo image">
+            <img src="./img/logo-pink2.png" alt="sponsor logo image">
+          </div>
+          <div class="sponsor__item">
+            <img src="./img/logo-light3.png" alt="sponsor logo image">
+            <img src="./img/logo-pink3.png" alt="sponsor logo image">
+          </div>
+          <div class="sponsor__item">
+            <img src="./img/logo-light4.png" alt="sponsor logo image">
+            <img src="./img/logo-pink4.png" alt="sponsor logo image">
+          </div>
+          <div class="sponsor__item">
+            <img src="./img/logo-light5.png" alt="sponsor logo image">
+            <img src="./img/logo-pink5.png" alt="sponsor logo image">
+          </div>
+          <div class="sponsor__item">
+            <img src="./img/logo-light6.png" alt="sponsor logo image">
+            <img src="./img/logo-pink6.png" alt="sponsor logo image">
+          </div>
+          <div class="sponsor__item">
+            <img src="./img/logo-light3.png" alt="sponsor logo image">
+            <img src="./img/logo-pink3.png" alt="sponsor logo image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__content">
+        <div class="footer__top">
+          <div ></div>
+          <div class="footer__mail">
+            <div>
+              <h3>Subscribe To Our Newsletter</h3>
+            </div>
+              <div class="mailtext">
+                <input placeholder="Your Email Adress" type="email">
+                <div class="mailsend">
+                  <button><i class="las la-paper-plane scale4"></i></button>
+              </div>                 
+            </div>
+          </div>
+           
+          </div>
+        <div class="footer__center">
+          <div class="footer__row">
+            <div class="footer__col">
+              <div class="footer__logo">
+                <a href="index.html"><img src="./img/logo-white.png" alt="logo"></a>
+              </div>
+              <div class="footer__info">
+                <ul>
+                  <li>
+                      <i class="fas fa-phone-alt"></i>
+                      <span>1800-123-4567 <br>
+                      +91 987-654-3210</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-envelope"></i>
+                      <span>
+                        info@example.com <br>
+                        services@gmail.com    
+                      </span>
+                  </li>
+                  <li>
+                      <i class="fas fa-map-marker-alt"></i>
+                      <span>Demo Address #8901 Marmora <br>
+                       Road Chi Minh City, Vietnam</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col">
+              <h5>Our links</h5>
+              <ul>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>Home</span> </a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>About Us</span> </a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>Services</span> </a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>Team</span></a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i> <span>Blog</span> </a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <h5>Our Services</h5>
+              <ul>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>Strategy & Research</span></a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>Web Development</span> </a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>Web Solution</span> </a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>Digital Marketing</span> </a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>App Design</span> </a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <h5>Other links</h5>
+              <ul>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>FAQ</span> </a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>Portfolio</span> </a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>Privacy Policy</span> </a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>Terms & Conditions</span> </a></li>
+                <li><a href=""><i class="fas fa-chevron-right"></i><span>Support</span> </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__botton">
+          <div class="footer__botton--row">
+            <div class="footer__botton--col">
+              <span>
+                Copyright © 2021
+                <a href="https://www.facebook.com/caribou1610/" target="_blank">TrungHai</a>
+                . All rights reserved.
+              </span>
+            </div>
+            <div class="footer__botton--col" >
+              <ul class="list__icon">
+                <li><a href="https://www.facebook.com/caribou1610/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/caribou1610/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>              
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+
+
+
+
+       <a href="" class="backtoptop cd-top text-replace js-cd-top">
+      <i class="fas fa-arrow-up"></i>
+      </a>
+
+
+
+
+      <!-- JQuery  -->
+      <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+      ></script>
+
+
+      <!-- Numscoller JS  -->
+      <script src="./Js/numscroller.js"></script>
+
+
+      <!-- FANCY BOX  -->
+     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+
+
+     <!-- BACKTOTOP  -->
+     <script src="./Js/main.js"></script>
+     <script src="./Js/util.js"></script>
+
+
+     <!-- SLIDER JS  -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="./Js/slider.js"></script>
+    
+      <!-- CAROUSEL JS  -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <script>
+       $('.blog__slider--content').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1700,
+         
+      });
+      </script>
+
+      <!-- SPONSOR  -->
+      <script>
+       $('.sponsor__slider').slick({
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 500,
+         
+      });
+      </script>
+
+      <!-- ******** -->
+      
+  </body>
+</html>
